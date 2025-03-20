@@ -187,7 +187,7 @@ class FallAndRotationDetection extends Component {
         <Text>Z: {gz.toFixed(2)} rad/s</Text>
         <Text>Speed: {speed.toFixed(2)} rad/s</Text>
 
-        {/* <Text style={styles.header}>📌 Fall Logs:</Text> */}
+        <Text style={styles.header}>📌 Fall Logs:</Text>
         {this.state.fallLogs.map((log, index) => (
           <Text key={index}>{log.timestamp}</Text>
         ))}
